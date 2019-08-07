@@ -28,6 +28,7 @@ npm i --save express  body-parser
 npm i --save-dev nodemon
 npm i --save express-graphql  graphql
 npm i --save mongoose
+npm i --save bcryptjs
 
 create app.js
 
