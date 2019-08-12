@@ -121,7 +121,7 @@ app.use('/graphql', graphqlHttp({
     graphiql: true
 }));
 
-const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-miqvl.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-necjy.mongodb.net/${process.env.MONGO_DB}?authSource=admin&retryWrites=true&w=majority`;
 
  mongoose.connect(uri)
 .then(() =>{
